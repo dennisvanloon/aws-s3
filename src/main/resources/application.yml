@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: aws-s3-demo
+
+cloud:
+  aws:
+    stack:
+      auto: false
+    credentials:
+      profile-name: <profile-name>
+    region:
+      static: eu-west-1
+      auto: false
+
+custom:
+  bucket: s3demo-dennis

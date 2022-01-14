@@ -1,0 +1,17 @@
+cloud:
+  aws:
+    stack:
+      auto: false
+    region:
+      static: eu-west-1
+      auto: false
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+localstack:
+  endpoint: http://localhost:4566
+
+custom:
+  bucket: s3demo
