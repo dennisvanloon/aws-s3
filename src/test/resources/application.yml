@@ -5,6 +5,9 @@ cloud:
     region:
       static: eu-west-1
       auto: false
+    instance:
+      data:
+        enabled: false
 
 spring:
   main:
@@ -15,3 +18,4 @@ localstack:
 
 custom:
   bucket: s3demo
+  sqs-queue-name: s3demo-sqs-queue

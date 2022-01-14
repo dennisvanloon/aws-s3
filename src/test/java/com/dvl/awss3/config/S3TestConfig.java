@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;
 
 @TestConfiguration
-public class AwsTestConfig {
+public class S3TestConfig {
 
     @Value("${cloud.aws.region.static}")
     private String region;
